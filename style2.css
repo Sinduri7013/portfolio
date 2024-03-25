@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    border:20px;
+   
+}
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 35px;
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:50;
+}
+.logo
+{
+    font-size: 25px;
+    color:white;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.logo:hover{
+    color:rgb(19, 113, 163);
+}
+span{
+    color:rgb(19, 113, 163);
+}
+.navbar a{
+    font-size: 18px;
+    color:white;
+    font-weight: 500;
+    margin:0 45px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a:active{
+color:rgb(19, 113, 163);
+border-bottom: 3px solid rgb(19, 113, 163);
+}
+.home{
+    width:100%;
+    min-height: 100vh;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    gap:7em;
+    padding: 30px 12% 0;
+}
+.home-content{
+    max-width:800px;
+}
+.home-content h3{
+    font-size: 42px;
+}
+.home-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+.btn-box{
+    width: 345px;
+    display:flex;
+    gap:2 em;
+}
+.img-box img{
+    border-radius: 50%;
+    width:350px;
+    margin-left: 100px;
+}
+.btn-1{
+    padding: 15px 28px;
+    background-color: rgb(19, 113, 163);
+    color:white;
+    border: solid;
+    border-radius:10px ;
+    font-size: 20px;
+    font-weight: 500;
+    cursor:pointer;
+}
+.btn-1:hover{
+   opacity:0.8;
+    
+    border:solid;
+}
+.btn-2{
+    padding: 15px 28px;
+    background-color: rgb(246, 66, 129);
+    color:white;
+    border:solid;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor:pointer;
+}
+.btn-2:hover{
+    opacity: 0.8;
+}
+.container{
+    display:grid;
+    grid-template-columns: 38% auto;
+    gap:4rem;
+    align-items: center;
+}
+.left{
+    border-radius: 20px;
+    overflow:hidden;
+}
+.basic-edu{
+    display:flex;
+    gap:32px;
+    margin-bottom: 32px;
+}
+.edu-box{
+    padding:24px;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 30px;
+    width:100%;
+}
+.edu-box img{
+    margin: auto;
+}
+.footer{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+}
+.footer a{
+    text-decoration: none;
+    padding:10px;
+    background-color: white;
+    margin:10px;
+    border-radius: 50%;
+}
+.footer a:hover{
+    background-color: #111;
+}
